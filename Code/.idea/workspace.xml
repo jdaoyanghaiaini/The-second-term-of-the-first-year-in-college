@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47a42fde-2cd4-4d95-8288-e306a8f36ab3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/S.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/src/IStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/src/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stack/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/UserId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/UserId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/LoginSystem/LoginSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/LoginSystem/LoginSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/demofactoryproxy/AdminFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/demofactoryproxy/AdminFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/demofactoryproxy/NormalFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/demofactoryproxy/NormalFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/demosingleton/Static.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/utils/LoadAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/utils/LoadId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/utils/LoadNormal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/out/production/LibraryProject/utils/WriteId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/LibrarySystem/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/LibrarySystem/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/LibrarySystem/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/LibrarySystem/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/LoginSystem/LoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/LoginSystem/LoginSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/ProxyPattern/ProxyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/ProxyPattern/ProxyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/AdminFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/AdminFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/NormalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/demofactoryproxy/NormalFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/demosingleton/CreateUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/demosingleton/CreateUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/user/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/user/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/user/NormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/user/NormalUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/LoadUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/NoThisUserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/NoThisUserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteUserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryProject/src/utils/WriteUserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/libraries/FileUtils.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/LibraryProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/UserId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/LoginSystem/LoginSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/constant/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/demofactoryproxy/AdminFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/demofactoryproxy/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/demofactoryproxy/NormalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/demosingleton/CreateUserId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/demosingleton/MyScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/user/AdminUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/user/NormalUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/utils/LoadUserId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/utils/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/utils/WriteAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/utils/WriteNormal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/out/production/LibraryProject/utils/WriteUserId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/LoginSystem/LoginSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/constant/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demofactoryproxy/AdminFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demofactoryproxy/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demofactoryproxy/NormalFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demosingleton/CreateUserId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demosingleton/MyScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/demosingleton/allUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/user/AdminUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/user/NormalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/LoadUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/LoadUserId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/NoThisUserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/WriteUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryProject_4.19/src/utils/WriteUserId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedLIst/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedLIst/src/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinkedLIst/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedLIst/src/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2w5UhUeRx1Z5aURpQ891ZJ7IFat" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47a42fde-2cd4-4d95-8288-e306a8f36ab3" name="Changes" comment="" />
+      <created>1745331049082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745331049082</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
