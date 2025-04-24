@@ -1,2 +1,2 @@
-public class Stack {
+public class MyStack {
 }
