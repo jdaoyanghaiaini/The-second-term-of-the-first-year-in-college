@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>163登陆</title>
+<style type="text/css">
+	body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑"; color:#9B9C97; background:#F1F1F1;}
+	h1,h2,img,p,dl,dt,dd,input{margin:0; padding:0; border:0;}
+	a:link,a:visited{color:#2B55A1; text-decoration:none;}
+	a:hover{text-decoration:underline;}
+	.header{width:960px; height:58px; padding-top:19px; margin:0 auto;}
+	h1{float:left; width:140px; background:url(img/dot_bg.jpg) repeat-y right top;}
+	.header .txt{width:340px; height:58px; float:left; background:url(img/text.png) no-repeat 22px 7px; text-indent:-999px;}
+	.txtR{float:right; line-height:35px;}
+	.wrap{width:960px; overflow:hidden; margin:0 auto;}
+	.tit{width:960px; height:46px; }
+	.titL{width:43px; height:46px; background:url(img/tit_bg1.jpg) no-repeat; float:left;}
+	.titC{width:902px; height:46px; background:url(img/tit_bg2.jpg) repeat-x; float:left; line-height:46px; color:#FFF; font-size:12px; font-weight:normal; padding-left:10px;font-size:14px;}
+	.titR{width:5px; height:46px; background:url(img/tit_bg3.jpg) no-repeat; float:left;}
+	.content{width:695px; overflow:hidden; border:1px solid #DBDBDB; border-top:0; padding:45px 0 45px 263px;}
+	.box{height:64px;}
+	.box dl{height:36px; line-height:36px;}
+	.box dt{width:68px; height:34px; float:left; color:#000; font-size:14px; text-align:right; padding-right:10px;}
+	.box dt span{color:#F00; font-family:"宋体"; padding-right:5px;}
+	.box dd .txt{width:195px; height:25px; line-height:25px; border:1px solid #C1C1C1; background:url(img/input_bg.jpg) repeat-x; color:#989898; float:left; margin-top:4px;}
+	.box dd span{float:left; padding:0 3px;}
+	.box dd select{float:left; margin-top:8px;}
+	.boxTxt{padding-left:80px;}
+	.box dd .lTxt{width:312px;}
+	.box dd .pic{float:left; margin-top:4px;}
+	.boxTxt p{height:20px;} 
+	.bBox{height:50px;}
+	.check{margin:2px 5px 0 0; float:left; _margin:-2px -2px 0 0;}
+	.regButton input{width:104px; height:37px; background:url(img/but.jpg) no-repeat; margin-left:80px; margin-top:20px;cursor:pointer;}
+	/*cursor:pointer游标 鼠标 变成手型工具*/
+</style>
+</head>
+
+<body>
+<div class="header">
+	<h1><a href="#"><img src="images/logo_wy.png" /></a></h1>
+    <p class="txt">中国第一大邮件服务商</p>
+    <div class="txtR">
+    	<a href="#">反馈意见</a>
+        <a href="#">帮助</a>
+    </div>
+</div>
+<div class="wrap">
+	<div class="tit">
+    	<span class="titL"></span>
+        <h2 class="titC">欢迎注册网易免费邮！您可以选择注册163、126、yeah.net三大免费邮箱。</h2>
+        <span class="titR"></span>
+    </div>
+    <div class="content">
+    	<div class="box">
+        	<dl>
+            	<dt><span>*</span>邮件地址</dt>
+                <dd>
+                	<input type="text" class="txt" value="建议输入手机号码注册" pattern="^\d{11}$" required /><span>@</span>
+                    <select><option>163.com</option></select>
+                </dd>
+            </dl>
+            <div class="boxTxt">6-18个字符，可使用字母、数字、下划线。推荐以手机号码直接注册</div>
+        </div>
+        <div class="box">
+        	<dl>
+            	<dt><span>*</span>密码</dt>
+                <dd>
+                	<input type="password" class="txt lTxt" />
+                </dd>
+            </dl>
+            <div class="boxTxt">6~16个字符，区分大小写</div>
+        </div>
+         <div class="box">
+        	<dl>
+            	<dt><span>*</span>确认密码</dt>
+                <dd>
+                	<input type="password" class="txt lTxt" />
+                </dd>
+            </dl>
+            <div class="boxTxt">请再次输入密码</div>
+        </div>
+         <div class="box">
+        	<dl>
+            	<dt>手机号码</dt>
+                <dd>
+                	<input type="text" class="txt lTxt" />
+                </dd>
+            </dl>
+            <div class="boxTxt">密码遗忘或被盗时，可通过手机短信取回密码</div>
+        </div>
+        <div class="box bBox">
+        	<dl>
+            	<dt><span>*</span>验证码</dt>
+                <dd>
+                	<input type="text" class="txt lTxt" /><span class="pic"><img src="img/yz.jpg" /></span>
+                </dd>
+            </dl>
+        </div>
+		
+      <br>
+		<div class="boxTxt">
+        <input type="checkbox" checked="checked"/>同意“<a href="#">服务条款</a>”和<a href="#">“隐私权保护和个人信息利用政策</a>”
+        </div>
+        <div class="regButton"><input type="button" /></div>
+    </div>
+</div>
+</body>
+</html

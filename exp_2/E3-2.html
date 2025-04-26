@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>浮动和页面布局</title>
+		<style>
+			* {
+				margin:0px;
+				padding:0px;
+				
+			}
+			div {
+				height:30px;
+				width:70px;
+			}
+			.blue_border {
+				float:left;
+				border:blue 1px solid;
+				height:120px;
+				width:31%;
+				margin-top:-4px;
+			}
+			.blue {
+				float: left;
+				display: block;
+				width:31%;
+				background:blue ;
+				border:1px blue solid;
+			}
+			.red {
+				border:1px red solid;
+				display: inline-block;
+				width:272px;
+				background: red;
+			
+			}
+			.red_border {
+				border:red 1px solid;
+				height:120px;
+				width:272px;
+				margin-top:-4px;
+				position: absolute;
+				left:31%;
+				margin-left:-1px;
+				
+			}
+			.space {
+				width:0px;
+				height:0px;
+			}
+		</style>
+	</head>
+	
+	<body>
+	<img src="img/E3-2.jpg" style="width：250px;height:265px;"><br>
+
+	<div class = "blue"></div>
+	<div class = "red"></div>
+	<div class ="space"></div>
+	<div class = "blue_border"></div>
+	<div class = "red_border"></div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>后代选择器</title>
+		<style>
+			#house li a {
+				color:red;
+				font-family: '宋体';
+				background-color: yellow;
+			}
+			body {
+				background-color: yellow;
+			}
+		</style>
+	</head>
+	<body>
+		
+	<h3>后代选择器-练习：&nbsp;请用后代选择器将 "出售房源","求购房源" 设置红色，字体为宋体，背景为黄色。
+	(注意：不用自己添加id和class)
+	</h3>
+<ul id="house">	
+<li><a href="#">网站首页</a></li>
+<li><a href="#">新房源</a></li>
+<li><a href="#">二手房</a></li>
+  <ul>
+   <li><a href="#">出售房源</a></li>
+   <li><a href="#">求购房源</a></li>
+  </ul>
+<li><a href="#">租房</a></li>
+</ul>
+<ul>	
+<li><a href="#">网站首页</a></li>
+<li><a href="#">新车</a></li>
+<li><a href="#">二手车</a></li>
+  <ul>
+   <li><a href="#">出售二手车</a></li>
+   <li><a href="#">求购二手车</a></li>
+  </ul>
+<li><a href="#">租房</a></li>
+</ul>
+	</body>
+</html>

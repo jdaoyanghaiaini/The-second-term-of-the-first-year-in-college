@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS制作表单</title>
+    <style>
+      table td {
+        text-align: center;
+        border: solid 1px;
+        width: 150px;
+        height: 40px;
+      }
+      table tr:not(:first-child) {
+        background-color: rgb(117, 211, 58);
+      }
+      input[type="radio"][name="sex"] {
+        margin: 5px;     
+        transform: scale(1.2);
+      }
+      input[type="radio"][name="hobby"] {
+        margin: 5px;      
+        transform: scale(1.2);
+      }
+      input[type="submit"] {
+        background-color: rgb(132, 128, 128);
+        margin-right: 30px;
+        text-align: center;
+        font-size: 15px;
+      }
+      input[type="reset"]{
+        background-color: rgb(132, 128, 128);
+        margin-left: 30px;
+        text-align: center;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img/E2-3.png" style="width:600px;height:500px;">
+    <br/>
+    <table cellspacing="0" align="center" width="600px">
+      <tr>
+        <td colspan="4" style ="color: red; font-size: 25px; border: solid 1px black;">用户信息采集表</td>
+      </tr>
+      <tr>
+        <td>用户名称:</td><td colspan="3"><input type="text" placeholder="请输入用户名" style="width: 180px; height: 25px;"></td> 
+      </tr>
+      <tr>
+        <td>家庭地址：</td><td colspan="3"><input type="text" placeholder="河南开封" style="width: 180px; height: 25px;"></td>
+      </tr>
+      <tr>
+        <td>性别</td><td colspan="3"><label for="boy">男</label><input type="radio" id="boy" checked="checked" name="sex"><label for="girl">女</label><input type="radio" name ="sex" id="girl">
+      </tr>
+      <tr>
+        <td>爱好</td><td colspan="3"><label for="football">足球</label><input checked="checked" type="radio" name ="hobby" id="football"><label for="trip">旅游</label><input type="radio" name ="hobby" id="trip"></td>
+      </tr>
+      <tr>
+        <td>省份</td><td colspan="3">
+          <select style = "font-size: 20px;" id = "provience">
+            <option value="北京市">北京市</option>
+            <option value="天津市">天津市</option>
+            <option value="河北省">河北省</option>
+            <option value="山西省">山西省</option>
+            <option value="内蒙古自治区">内蒙古自治区</option>
+            <option value="辽宁省">辽宁省</option>
+            <option value="吉林省">吉林省</option>
+            <option value="黑龙江省">黑龙江省</option>
+            <option value="上海市">上海市</option>
+            <option value="江苏省">江苏省</option>
+            <option value="浙江省">浙江省</option>
+            <option value="安徽省">安徽省</option>
+            <option value="福建省">福建省</option>
+            <option value="江西省">江西省</option>
+            <option value="山东省">山东省</option>
+            <option value="河南省" selected = "selected">河南省</option>
+            <option value="湖北省">湖北省</option>
+            <option value="湖南省">湖南省</option>
+            <option value="广东省">广东省</option>
+            <option value="广西壮族自治区">广西壮族自治区</option>
+            <option value="海南省">海南省</option>
+            <option value="重庆市">重庆市</option>
+            <option value="四川省">四川省</option>
+            <option value="贵州省">贵州省</option>
+            <option value="云南省">云南省</option>
+            <option value="西藏自治区">西藏自治区</option>
+            <option value="陕西省">陕西省</option>
+            <option value="甘肃省">甘肃省</option>
+            <option value="青海省">青海省</option>
+            <option value="宁夏回族自治区">宁夏回族自治区</option>
+            <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+            <option value="香港特别行政区">香港特别行政区</option>
+            <option value="澳门特别行政区">澳门特别行政区</option>
+            <option value="台湾省">台湾省</option>
+        </td>
+      </tr>
+      <tr>
+        <td>照片</td><td colspan="3"><input type="file""></td>
+      </tr>
+      <tr>
+        <td style="height: 250px;">个人介绍</td><td colspan="3"  style="height: 250px; background-image: url(./img/bg.jpg); background-size: contain;"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><input type="submit" value="提交"><input type="reset"></td>
+      </tr>
+    </table>
+  </body>
+</html>

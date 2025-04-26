@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		.father {
+			position:absolute;
+			border: 1px black solid;
+			width:250px;
+			height:250px;
+			background: blue;
+		}
+		.son {
+			position:relative;
+			top:50%;
+			left:50%;
+			width:150px;
+			height:150px;
+			margin-left:-75px;
+			margin-top:-75px;
+			border-radius: 50%;
+			background-image: linear-gradient(
+			to bottom,
+			white 0%,
+			white 50%,
+			black 50%,
+			black 100%
+			);
+		}
+		.left_circle {
+			width:75px;
+			height:75px;
+			background: black;
+			position:relative;
+			border-radius: 50%;
+			top:3%;
+			left:50%;
+			
+		}
+		.right_circle {
+			width:75px;
+			height:75px;
+			background: white;
+			position:relative;
+			border-radius: 50%;
+			top:-25%;
+			left:20%;
+		}
+		.left_ellipse {
+			width:38px;
+			height:38px;
+			background: black;
+			position:relative;
+			top:-118px;
+			left:70px;
+			border-radius: 50%;
+		}
+		.right_ellipse {
+			width:38px;
+			height:38px;
+			background: white;
+			position:relative;
+			top:-156px;
+			left:143px;
+			border-radius: 50%;
+		}
+	</style>
+	<body>
+<h3>效果如下图</h3>
+<img style="display: block;" src="img/taiji.png" />
+<div class = "father">
+	<div class = "son"></div>
+	<div class = "left_circle"></div>
+	<div class = "right_circle"></div>
+	<div class = "left_ellipse"></div>
+	<div class = "right_ellipse"></div>
+</div>
+	</body>
+</html>
