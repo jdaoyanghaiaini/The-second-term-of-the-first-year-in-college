@@ -49,6 +49,32 @@ public class BinaryTree {
         if(root == null) return 0;
         return treeSize(root.left) + treeSize(root.right) +1;
     }
+
+    public int getLeafNodeCount(TreeNode root) {
+        if(root == null) return 0;
+        if(root.left == null && root.right == null) return 1;
+        return getLeafNodeCount(root.left) + getLeafNodeCount(root.right);
+    }
+
+    public int getLevelCount(TreeNode root,int k) {
+        if(root ==null) return 0;
+        if(k == 1 ) return 1;
+        return getLevelCount(root.left,k-1) + getLevelCount(root.right,k-1);
+    }
+
+    public TreeNode find(TreeNode root,char ch) {
+        if(root == null)    return null;
+        if(root.val == ch)  return root;
+
+        TreeNode ret = find(root.left,ch);
+        if(ret != null) return ret;
+
+        TreeNode ret2 = find(root.right,ch);
+        if(ret2 != null)    return ret2;
+
+        return null;
+
+    }
 }
 class Test {
     public static void main(String[] args) {
@@ -60,7 +86,10 @@ class Test {
         System.out.println();
         binaryTree.postOrder(root);
         System.out.println();
-        System.out.println(binaryTree.treeSize(root)); 
+        System.out.println(binaryTree.treeSize(root));
+        System.out.println(binaryTree.getLeafNodeCount(root));
+        System.out.println(binaryTree.getLevelCount(root,3));
+        binaryTree.find(root,'e');
     }
 }
 
