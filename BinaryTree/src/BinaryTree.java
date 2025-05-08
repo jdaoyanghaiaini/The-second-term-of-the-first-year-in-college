@@ -73,7 +73,13 @@ public class BinaryTree {
         if(ret2 != null)    return ret2;
 
         return null;
+    }
 
+    public int getHeight(TreeNode root) {
+        if(root == null)    return 0;
+        int leftH = getHeight(root.left);
+        int leftR  = getHeight(root.right);
+        return leftH>=leftR ?leftH+1:leftR+1;
     }
 }
 class Test {
@@ -90,6 +96,7 @@ class Test {
         System.out.println(binaryTree.getLeafNodeCount(root));
         System.out.println(binaryTree.getLevelCount(root,3));
         binaryTree.find(root,'e');
+        System.out.println(binaryTree.getHeight(root));
     }
 }
 
