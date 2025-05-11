@@ -25,6 +25,7 @@ class Solution {
             list.add(cur);
             Collections.reverse(list);
         }
+        return list;
     }
     public Queue<TreeNode> addNode(TreeNode root,Queue<TreeNode> queue) {
         if(root.left!=null) queue.offer(root.left);
