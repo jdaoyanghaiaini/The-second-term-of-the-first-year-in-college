@@ -45,6 +45,41 @@ public class Sort {
         }
     }
 
+    /**
+     * 希尔排序
+     *时间复杂度：不确定，一般认为是O(N^1.2~N^1,5)
+     *空间复杂度:O(1)
+     * @param array
+     */
+    public void sheelSort(int[] array) {
+       int gap = array.length;
+       while(gap!=0) {
+           gap = gap/2;
+           sheel(array,gap);
+       }
+    }
+    private void sheel(int[] array, int gap) {
+        for (int i = gap; i < array.length; i++) {
+            int tmp =array[i];
+            int j=i-gap;
+            for(;j>=0;j-=gap) {
+                if(array[j]>tmp){
+                    array[j+gap] = array[j];
+                }
+                else {
+                    break;
+                }
+            }
+            array[j+gap] = tmp;
+        }
+    }
+
+    /**
+     * 堆排序
+     * 时间复杂度：O(N*logN)
+     * 空间复杂度:O(1)
+     * @param array
+     */
     public void heapSort(int[] array) {
         //创建大根堆
         createMaxHeap(array);
@@ -79,13 +114,42 @@ public class Sort {
         }
     }
 
+    /**
+     * 霍尔版快速排序
+     * 时间复杂度:O(NlogN)
+     * 空间复杂度：O(logN)一般认为
+     * @param array
+     */
+    public void hoareQuickSort(int[] array) {
+        quick(array,0, array.length-1);
+    }
+
+    private void quick(int[] array, int left, int right) {
+        if(left>=right) {
+            return;
+        }
+        int end = right;
+        int start = left;
+        while(left<right) {
+            while( left<right && array[right]>=array[start]) {
+                right--;
+            }
+            while(left<right && array[left]<=array[start]) {
+                left++;
+            }
+            swap(array,right,left);
+        }
+        swap(array,start,left);
+
+        quick(array,start,left-1);
+        quick(array,right+1,end);
+    }
+
     private void swap(int[] array,int i,int j) {
         int tmp = array[i];
         array[i] = array[j];
         array[j] = tmp;
     }
-
-
 }
 class Test {
     public static void main(String[] args) {
@@ -93,6 +157,8 @@ class Test {
         Sort sort = new Sort();
 //        sort.insertSort(arr);
 //        sort.selectSort(arr);
-        sort.heapSort(arr);
+//        sort.heapSort(arr);
+//        sort.sheelSort(arr);
+        sort.hoareQuickSort(arr);
     }
 }
