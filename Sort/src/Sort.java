@@ -1,6 +1,3 @@
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
 public class Sort {
     /**
      * 时间复杂度：O(N^2)
@@ -145,6 +142,91 @@ public class Sort {
         quick(array,right+1,end);
     }
 
+    public void hoolingQuickSort(int arr[]) {
+        int left = 0,right = arr.length-1;
+        hollingQuick(arr,left,right);
+    }
+
+    private void hollingQuick(int[] arr, int left, int right) {
+        if(left >= right) {
+            return;
+        }
+        int start = left,end = right;
+        int tmp = arr[start];
+        int tmpIndex = start;
+        while(left<right) {
+            while(right>left && arr[right]>=tmp) {
+                right--;
+            }
+            if(left<right) {
+                arr[tmpIndex] = arr[right];
+                tmpIndex = right;
+            }else {
+                arr[tmpIndex] = tmp;
+            }
+            while(right>left && arr[left]<=tmp) {
+                left++;
+            }
+            if(left<right) {
+                arr[tmpIndex] = arr[left];
+                tmpIndex = left;
+            }else {
+                arr[tmpIndex] = tmp;
+            }
+        }
+        hollingQuick(arr,start,left-1);
+        hollingQuick(arr,right+1,end);
+    }
+
+    /**
+     * 归并排序
+     * 空间复杂度：O(N)
+     * 时间复杂度:O(N*logN)
+     * @param array
+     */
+    public void mergeSort(int[] array) {
+        merge(array,0,array.length-1);
+    }
+
+    private void merge(int[] array, int start, int end) {
+        if (start == end) {
+            return;
+        }
+        int mid = (start + end) / 2;
+        //递归到最左边或最右边，先分后治
+        merge(array, start, mid);
+        merge(array, mid + 1, end);
+
+        int s1 = start,s2 = mid+1,e1 = mid,e2 = end;
+        int[] tmp = new int[e2-s1+1];
+        int k = 0;
+        while(s1<=e1 && s2<=e2) {
+           if(array[s1]<=array[s2]) {
+               tmp[k++] = array[s1++];
+           }else {
+               tmp[k++] = array[s2++];
+           }
+        }
+        while(s1<=e1) {
+            tmp[k++] = array[s1++];
+        }
+        while(s2<=e2) {
+            tmp[k++] = array[s2++];
+        }
+        for (int i = 0; i < tmp.length; i++) {
+            array[i+start] = tmp[i];
+        }
+    }
+
+    private void insMerge(int[] array, int left, int right) {
+        int tmp = array[right];
+        while(right!=left) {
+            array[right+1] = array[right];
+            right--;
+        }
+        array[left] = tmp;
+    }
+
     private void swap(int[] array,int i,int j) {
         int tmp = array[i];
         array[i] = array[j];
@@ -159,6 +241,10 @@ class Test {
 //        sort.selectSort(arr);
 //        sort.heapSort(arr);
 //        sort.sheelSort(arr);
-        sort.hoareQuickSort(arr);
+//        sort.hoareQuickSort(arr);`
+//        sort.hoareQuickSort(arr);
+//        sort.hoolingQuickSort(arr);
+        sort.mergeSort(arr);
+
     }
 }
