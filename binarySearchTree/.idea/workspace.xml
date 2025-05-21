@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb05d80-0db6-4f55-942c-5aeaf33916ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaSearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinarTree/src/BinaryTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinaryTree/out/production/BinarTree/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/out/production/BinarTree/Solution1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinaryTree/out/production/BinarTree/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/out/production/BinarTree/Test3.class" afterDir="false" />
@@ -95,7 +92,9 @@
       <change beforePath="$PROJECT_DIR$/../MyLinkedLIst/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinkedLIst/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Queue/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Queue/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort/src/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaSearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +120,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Develop/code/java_code/The-second-term-of-the-first-year-in-college/binarySearchTree"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Develop/code/java_code/The-second-term-of-the-first-year-in-college/binarySearchTree&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -150,5 +149,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaSearchTree.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
