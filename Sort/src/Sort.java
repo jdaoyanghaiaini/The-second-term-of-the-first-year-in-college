@@ -89,7 +89,7 @@ public class Sort {
     }
 
     private void createMaxHeap(int[] array) {
-        for(int parent=(array.length-1-1);parent>=0;parent--) {
+        for(int parent=(array.length-1-1)/2;parent>=0;parent--) {
             siftDown(array,parent, array.length);
         }
     }
